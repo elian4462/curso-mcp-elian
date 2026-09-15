@@ -1,0 +1,19 @@
+[project]
+name = "curso-mcp-elian"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Uisrael_Farinango", email = "e1005253453@uisrael.edu.ec" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=2.23.0",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+curso-mcp-elian = "curso_mcp_elian:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
